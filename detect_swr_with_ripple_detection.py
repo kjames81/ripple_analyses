@@ -317,7 +317,7 @@ def run_all(session):
     ripple_times['ripple_duration'] = ripple_times.end_time - ripple_times.start_time
         
     # check against emg (< 0.85)
-    ripple_times = emg_filter(session,ripple_times,shank)
+    #ripple_times = emg_filter(session,ripple_times,shank)
         
     # add ripple channel and peak amp
     print('getting ripple channel')
